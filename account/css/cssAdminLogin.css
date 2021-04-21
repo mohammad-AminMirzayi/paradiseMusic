@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 1px solid #151515;
+    height: 450px;
+    width: 50%;
+    margin: 50px 0 0 400px;
+    background-color: transparent;
+}
+
+#password, #name{
+    width: 250px;
+    height: 40px;
+    border: 1px solid #151515;
+}
+
+#name{
+    margin-bottom: 19px;
+}
+
+#form input[type="submit"]{
+    margin-top: 19px;
+    padding: 9px;
+    border-radius: 19px;
+    border: 1px solid #151515;
+    background-color: #29bb89;
+}
+
+body{
+      background-image: url('../../image/login_Background.png');
+      background-position: right;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+}
+
+#form h1{
+    margin: -50px 0 19px 0;
+}
+
+#form .alert{
+    width: 100%;
+    border: 1px solid #151515;
+    margin: 19px 0 19px 0;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+#form .alert p i{
+    margin-left: 9px;
+}
+
+#form .alert span{
+    margin-bottom: 9px;
+}

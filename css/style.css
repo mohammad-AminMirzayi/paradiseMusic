@@ -1,0 +1,377 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header{
+    width: 100%!important;
+    height: 75px;
+    box-shadow: 3px 2px 15px  black;
+    background-color: #840032;
+}
+
+.header-menu{
+    float: right;
+    display: flex;
+}
+
+.header-menu li{
+    list-style: none;
+    margin: 19px 13px 0 0;
+}
+
+.header-menu li a{
+    color: #fdfffc;
+    text-decoration: none;
+    padding: 9px;
+}
+
+.header-menu li a:hover{
+    border: 0;
+    border-bottom: 1px solid #fdfffc;
+    transition: all 0.5s ease-in-out;
+    border-radius: 0;
+}
+
+.header-menu li:hover{
+    background-color: rgba(224, 225, 221, 0.7);
+    padding: 3px;
+    transition: ease-in-out background 0.5s;
+    
+}
+
+.header-menu li:active{
+     transform: scale(1.1);
+}
+
+.intro-content{
+ height: 500px;
+ background-color: #575255;
+ margin-top: 9px;
+}
+
+.intro-content h1{
+    display: flex;
+    justify-content: center;
+    padding-top: 200px;
+    font-size: 29px;
+}
+
+.fa-search-custom{
+    padding: 27px 0 0 19px;
+    font-size: 22px;
+    color: #ffff;
+    clear: both;
+}
+
+.search{
+    float: left;
+}
+
+#search-input{
+    float: left;
+    margin: -27px 0 0 50px;
+    width: 350px;
+    padding: 3px 5px;
+    outline: none;
+    display: none;
+}
+
+.width{
+    width: 150px!important;
+}
+
+.intro-content img{
+    height: 600px;
+}
+
+.custom-h5:hover{
+    display: flex;
+    justify-content: center;
+    padding: 3px;
+    color: #ffba08;
+}
+
+.fa-search-custom:active{
+    transform: rotate(350deg);
+}
+
+#search-input:focus{
+    border: 1px solid #f9f7f7;
+    outline: none;
+}
+
+.header{
+    clear: both;
+}
+
+.account img{
+    width: 40px;
+    height: 40px;
+    margin: 19px 0 0 27px;
+    border-radius: 19px;
+    clear: both;
+}
+.intro-content{
+    width: 95%;
+    margin-left: 40px;
+    clear: both;
+}
+
+.account a .fa-user{
+    margin: 20px 0 0 37px;
+    color: #fdfffc;
+     border: 1px solid #fdfffc;
+    border-radius: 19px;
+    padding: 10px;
+}
+
+.list-music h1{
+    height: 500px;
+    margin: 150px 90px 0 0;
+    float: right;
+    clear: both;
+    z-index: 9;
+    font-size: 29px;
+}
+
+.carousel-item img{
+    clear: both;
+}
+
+.bg-primary{
+
+    background-color: #772ce8!important;
+}
+
+.card-music{
+    float: right;
+    clear: both;
+    margin: -400px 70px 50px 0;
+    display: flex;
+}
+
+.card{
+    margin-left: 75px;
+    background-color: #f0f5f9!important;
+}
+
+.shopping-cart{
+    float: left;
+    margin: 27px 0 0 40px;
+}
+
+.shopping-cart a i, .shopping-Cart_a{
+    font-size: 24px;
+}
+
+.shopping-cart a, .shopping-Cart_a{
+    border: 1px solid #fdfffc;
+    padding: 9px;
+    border-radius: 19px;
+    color: #fdfffc;
+}
+
+.shopping-cart a i:hover{
+    transform: rotate(360deg);
+    transition: all 0.9s ease-in-out;
+    color: #dddddd;
+}
+
+.shopping-cart a:active, .shopping-Cart_a:active{
+    transform: scale(0.9);
+}
+
+.account a .fa-user:hover{
+    transform: scale(0.9);
+    transition: transform 0.5s ease-in-out;
+    color: #dddddd;
+}
+
+.audio-pause{
+    float: left;
+}
+
+.account button{
+    margin: 19px 0 0 29px;
+    padding: 5px;
+    border-radius: 19px;
+    background-color: #5f0f40;
+    border: 1px solid #f9f7f7;
+}
+
+.account button i{
+    color: #fdfffc;
+}
+
+.intro-content,.carouselExampleDark,.carousel-inner{
+    clear: both!important;
+}
+
+.new-Song{
+    clear: both;
+    float: right;
+    margin-right: 75px;
+    height: 500px;
+}
+
+.new-Song h1{
+    font-size: 37px;
+}
+
+.header-menu li a i{
+    font-size: 22px;
+    margin-right: 0.5rem;
+}
+
+.h1-Text_Header{
+    margin-top: 50px!important;
+}
+
+.social-Medias{
+    height: 270px;
+    background-color: #5f0f40;
+    clear: both;
+    width: 100%;
+    margin-bottom: 2.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.intro-content,.carouselExampleDark{
+    clear: both;
+}
+
+.socials span{
+    margin-right: 2.5rem;
+}
+
+.social-Medias span a{
+    text-decoration: none;
+    color: #f0f5f9;
+}
+
+.social-Medias span a i{
+    font-size: 3rem;
+}
+
+.social-Medias span a i:hover{
+    border-left: 2px solid #0b090a!important;
+    padding-left: 9px;
+    transition: padding 0.5s;
+    transform: scale(0.9);
+}
+
+.social-Medias span a:hover{
+    color: #8e7f7f;
+    transition: color 0.5s;
+}
+
+.socials{
+    margin-right: -2.5rem;
+}
+
+.copyright{
+    width: 100%;
+    height: 70px;
+    background-color: #212f45;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.copyright p{
+    color: #edf2f4;
+    font-weight: 700;
+    font-family: sans-serif;
+}
+
+.footer{
+    width: 100%;
+    height: 11.4rem;
+    background-color: #0b090a;
+    margin-bottom: 1.5rem;
+}
+
+.menu-footer{
+    float: left;
+    display: flex;
+}
+
+.menu-item-footer{
+    list-style: none;
+    padding: 4rem 0 0 1.5rem;
+}
+
+.menu-item-footer a{
+    text-decoration: none;
+    color: #f0f5f9;
+}
+
+.menu-item-footer a i{
+    padding-right: .5rem;
+}
+
+.menu-item-footer a:hover{
+    border-left: 2.5px solid #dd2c2f;
+    color: #dd2c2f;
+    padding-left: .5rem;
+    transition: padding 0.4s ease-in-out;
+}
+
+.menu-item-footer:hover{
+    transform: scale(1.1);
+}
+
+.input-footer{
+    float: right;
+    margin-top: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.input-footer span{
+    color: #fdfffc;
+    padding: 0 2.5rem 0 1.5rem;
+}
+
+.input-footer input[type="submit"]{
+    width: 70px;
+    border-radius: 5px;
+    border: none;
+    background-color: #dd2c2f;
+}
+
+.input-footer input[type="text"]{
+    width: 250px;
+    border-radius: 5px;
+}
+
+.header-Fixed_Scroll{
+    height: 70px;
+    position: fixed;
+    z-index: 9000;
+    margin-top: -9px!important;
+    transition: height 0.5s;
+    background-color: #8f2d56;
+    transition: background-color 0.9s;
+}
+
+.item-bars{
+    display: none;
+}
+
+.item-bars i{
+    font-size: 29px;
+}
+
+.today-calendar{
+    margin-left: 2.5rem;
+}
+
+body,html{
+    scroll-behavior: smooth;
+}

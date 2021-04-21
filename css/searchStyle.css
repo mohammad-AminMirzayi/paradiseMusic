@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 3rem;
+    width: 90%;
+    height: 500px;
+    border: 2.5px solid;
+    margin-left: 4.5rem;
+    z-index: 999;
+    background-image: url('../image/search-Engine_Background.png');
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: left;
+}
+
+.main h1{
+    padding-bottom: 1.5rem;
+    font-size: 29px;
+    color: #000000;
+}
+
+#form input{
+    width: 250px;
+    padding: 3px;
+}
+
+#form button{
+    width: 57px;
+    border: 2.5px solid;
+    border-radius: 5px;
+}

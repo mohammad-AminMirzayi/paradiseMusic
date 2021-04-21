@@ -1,0 +1,116 @@
+.req-Music,.dedicated-Page{
+    width: 200px!important;
+}
+
+.menu-item{
+    margin: 50px 90px 0 0!important;
+}
+
+.main{
+    display: flex;
+    background-image: url('../../image/a-Image_Bacground.png');
+    height: 680px;
+    background-repeat: no-repeat;
+    flex-direction: column;
+}
+
+.box-Modal{
+    width: 40%;
+    height: 129px;
+    margin: 29px 0 0 360px;
+    border-radius: 19px;
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+}
+
+.box-Modal p{
+    float: right;
+    margin: 19px 9px 0 0;
+}
+
+.info div span{
+    width: 30px;
+    margin-left: -5px;
+}
+
+.info div span:hover{
+    width: 100px;
+    cursor: pointer;
+    transition: all 0.5s ease-in-out;
+    
+}
+
+.info div span i{
+    float: right;
+}
+
+.menu-item li{
+    box-shadow: 9px 5px 25px 1px rgba(66, 66, 66, 1);
+    border: none;
+}
+
+.info div img{
+    z-index: 1000!important;
+}
+
+.menu-item li:hover{
+    box-shadow: 15px 13px 25px 7px rgba(84, 84, 84, 1);
+    border-radius: 20px 20px 20px / 38px 38px 39px; 
+    border: 2px inset #03071e;
+    transition: all 0.5s ease-in-out;
+}
+
+.menu-list{
+    margin: 1.5rem 1.5rem 0 1.5rem;
+    display: none;
+}
+
+.menu-list a{
+    color: #03071e;
+    cursor: pointer;
+}
+
+.menu-list a i{
+    font-size: 22px;
+}
+
+.box-Modal .text-Box{
+    border-bottom: .05rem solid #e5e5e5;
+    padding-bottom: 1.5rem;
+}
+
+.upgrade-Info{
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+}
+
+.time{
+    display: flex;
+    clear: both;
+    padding: 1rem 0 0 0;
+    flex-direction: column;
+}
+
+.time p{
+    display: flex;
+    margin:0 .5rem 1.5rem -10px;
+    align-items: center;
+    justify-content: center;
+    width: 190px;
+    clear: both;
+}
+
+.hr.min.sec{
+    clear: both;
+}
+
+.time p:last-child{
+    margin-bottom: 0;
+}
+
+.hr:hover,.min:hover,.sec:hover{
+    width: 70px!important;
+    transition: all 0.5s ease-in-out;
+}

@@ -1,0 +1,182 @@
+@media (max-width:1145px){
+    .menu-item_li{
+        display: none;
+    }
+
+    .item-bars{
+        display: block;
+    }
+}
+
+@media (max-width:1053px){
+    .intro-content{
+        margin-left: 25px;
+    }
+}
+
+@media (max-width:1127px){
+    .card{
+        margin-left: 19px;
+    }
+
+    .card-music .card:last-child{
+        display: none;
+    }
+
+    .last-Card{
+        display: none;
+    }
+}
+
+@media (max-width:987px){
+    .card{
+        margin-left: 11px;
+    }
+
+}
+
+@media (max-width:1441px){
+    .card:last-child{
+        display: none;
+    }
+
+    .last-Card{
+        display: none;
+    }
+}
+
+@media (max-width:1133px){
+    .menu-item-footer{
+        font-size: 13px;
+    }
+
+    #text-Input_footer{
+        width: 200px;
+    }
+}
+
+@media (max-width:1002px){
+    .menu-item-footer{
+        font-size: 13px;
+    }
+
+    #text-Input_footer{
+        width: 170px;
+    }
+
+    .input-footer form input[type="submit"]{
+        width: 70px;
+    }
+}
+
+@media (max-width:961px){
+    .card_Three{
+        display: none;
+    }
+
+    .menu-item-footer{
+        display: none;
+    }
+
+}
+
+@media (max-width:749px){
+    #search-input{
+        width: 200px;
+    }
+}
+
+@media (max-width:662px){
+    .list-music .card-music{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .card{
+        margin-bottom: .5rem;
+    }
+}
+
+@media (max-width:445px){
+    .input-footer input[type="submit"]{
+        margin-left: 0;
+    }
+
+}
+
+@media (max-width:474.98px){
+    .input-footer span{
+        font-size: 11px;
+    }
+
+    .copyright p{
+        font-size: 11px;
+    }
+
+    .today-calendar{
+        display: none;
+    }
+
+    .social-Medias span a i{
+        font-size: 2.5rem;
+    }
+}
+
+@media (max-width:681.98px){
+    .intro-content{
+        margin-left: 15px;
+    }
+}
+
+@media (max-width:439.98px){
+    .intro-content{
+        margin-left: 11px;
+    }
+
+    .list-music h1{
+        padding-left: 59px;
+        font-size: 22.5px;
+        float: right;
+    }
+}
+
+@media (max-width:444.98px){
+    #text-Input_footer{
+        width: 100PX;
+    }
+
+    .social-Medias{
+        width: 100%!important;
+        max-width: 100%!important;
+    }
+
+}
+
+@media (max-width:419.98px){
+    .social-Medias span a i{
+        font-size: 1.5rem;
+    }
+}
+
+@media (max-width:376.98px){
+    .list-music .card-music .card{
+        float: right;
+        margin-right: -50px;
+    }
+
+    .h1-Text_Header, .list-music h1{
+        margin-right: -0px!important;
+    }
+}
+
+@media (max-width:365.98px){
+    .social-Medias span a i{
+        font-size: 1.1rem;
+    }
+}
+
+@media (max-width:342.98px){
+    #search-input{
+        width: 150px;
+    }
+}
