@@ -2,6 +2,7 @@ const $ = document;
 const search_icon = document.querySelector('.fa-search-custom')
 const shoppingBag = $.querySelector('.shopping-cart a')
 const todayCalendar_Span = $.querySelector('.today-calendar')
+const mobileTodayCalendar_Span = $.querySelector('.mobile-Today_Calendar')
 const accountUser_a = $.querySelector('.account a')
 
 
@@ -42,6 +43,7 @@ window.addEventListener('DOMContentLoaded', (e) => {
     }
     const date_Today = new Intl.DateTimeFormat('fa-IR', option).format(today)
     const todayCalendar = $.querySelector('.today-calendar').innerHTML = date_Today
+    mobileTodayCalendar_Span.innerHTML = date_Today
     checkEvents(today)
 })
 
