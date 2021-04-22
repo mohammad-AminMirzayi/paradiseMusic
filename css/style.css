@@ -375,3 +375,110 @@
 body,html{
     scroll-behavior: smooth;
 }
+
+.mobile-Side .offcanvas{
+    top: 10!important;
+    right: 0;
+    background-color: #212f45;
+    color: #f0f5f9;
+}
+
+.item-bars:hover,.item-bars a:hover{
+    background: none!important;
+    border: none!important;
+}
+
+.item-bars:active, .item-bars a:active{
+    transform: none!important;
+    border: none!important;
+    background: none!important;
+}
+
+.item-bars{
+    padding-top: .5rem;
+}
+
+.item-bars a i{
+    color: #f0f5f9;
+}
+
+.mobile-Item{
+    float: right;
+    clear: both;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid #f0f5f9;
+    width: 100%;
+}
+
+.mobile-Item li{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-left: 11rem;
+}
+
+.mobile-Item li:hover{
+    background: none;
+    transform: none;
+}
+
+.mobile-Item li:last-child{
+    padding-bottom: 1.5rem;
+}
+
+.mobile_Footer input{
+    margin: 5.5rem 0 0 5.5rem;
+    padding: 3px;
+    margin-bottom: 2.5rem;
+}
+
+.mobile-Side{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.mobile_Footer button{
+    width: 55px;
+    padding: 3;
+    border-radius: 5px;
+    outline: none;
+    overflow: none;
+    border: none;
+    background-color: #212f45;
+}
+
+.mobile_Footer button i{
+    color: #f0f5f9;
+}
+
+.mobile_Footer button:active , .mobile_Footer button:hover{
+    border: 2.5px solid #f0f5f9;
+}
+
+.mobile-Input{
+    border-bottom: 2.5px solid #f0f5f9;
+}
+
+.btn-close_Custom{
+    color: #f0f5f9!important;
+}
+
+.mobile-H5_Text::after{
+    content: '\1F3A7';
+}
+
+.mobile-Acc{
+    display: flex;
+}
+
+.mobile-Acc .today-calendar{
+    display: block;
+    float: right;
+}

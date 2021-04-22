@@ -180,3 +180,14 @@
         width: 150px;
     }
 }
+
+@media (max-width:375.98px){
+    .mobile_Footer input{
+        width: 150px;
+    }
+
+    .mobile-Item li{
+        font-size: 9px;
+        margin-right: 1.5rem;
+    }
+}
