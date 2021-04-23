@@ -1,9 +1,9 @@
 const $ = document;
 const search_icon = document.querySelector('.fa-search-custom')
-const shoppingBag = $.querySelector('.shopping-cart a')
+const shoppingBag = $.querySelector('#shoppingBag_a')
 const todayCalendar_Span = $.querySelector('.today-calendar')
 const mobileTodayCalendar_Span = $.querySelector('.mobile-Today_Calendar')
-const accountUser_a = $.querySelector('.account a')
+const accountUser_a = $.querySelector('#account_a')
 
 
 search_icon.addEventListener('click', (e) => {
