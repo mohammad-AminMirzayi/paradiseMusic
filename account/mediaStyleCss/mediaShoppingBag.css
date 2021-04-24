@@ -1,0 +1,9 @@
+@media (max-width:1326.98px){
+    .item-menu .li-items{
+        display: none!important;
+    }
+
+    .menu-icon_Bars{
+        display: block!important;
+    }
+}

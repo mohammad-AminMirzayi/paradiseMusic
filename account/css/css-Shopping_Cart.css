@@ -65,7 +65,7 @@
     margin-bottom: 2.5rem;
 }
 
-.item-menu li:hover{
+.item-menu .mobile-item_li:hover{
     border-bottom: 2px solid #0b090a;
     padding-bottom: .5rem;
 }
@@ -96,4 +96,96 @@
 #setting_Div{
     display: none;
     transition: all .5s;
+}
+
+.menu-icon_Bars{
+    display: none;
+}
+
+.menu-icon_Bars a i{
+    font-size: 27px;
+}
+
+.menu-icon_Bars:hover{
+    border: 0!important;
+    padding-bottom: 0!important;
+}
+
+.mobile-Side .offcanvas{
+    float: right;
+    z-index: 9999999;
+    clear: both;
+}
+
+.mobile-Item .mobile-item_li a{
+    color: #0b090a;
+}
+
+.mobile-Item .mobile-item_li:last-child{
+    border-bottom: 2.5px solid!important;
+    padding-bottom: 2.5rem;
+    width: 100%;
+}
+
+.mobile-Item{
+    float: right;
+    width: 100%;
+}
+
+.mobile-Item .mobile-item_li{
+    padding: 1.5rem 0 1rem 10.5rem;
+}
+
+.mobile-Item .mobile-item_li:first-child{
+    border-top: 2.5px solid!important;
+    width: 100%;
+}
+
+.mobile_Footer .mobile-Input{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    clear: both;
+    padding-top: 1.5rem;
+}
+
+.mobile_Footer .mobile-Input input{
+    padding: 5.5px;
+    border: none;
+    background-color: #0b090a;
+    border-radius: 19px;
+}
+
+.mobile_Footer .mobile-Input button{
+    padding: 1.5px;
+    width: 55px;
+    margin-left: .5rem;
+    background-color: #ffffff;
+    border: none;
+}
+
+.mobile_Footer .mobile-Input button:hover{
+    transform: scale(1.1);
+    transition: all .5s ease-in-out;
+}
+
+.mobile_Footer .mobile-Input button:active{
+    border: 2.5px solid;
+    padding: 5;
+    border-radius: 5px;
+}
+
+.mobile_Footer .mobile-Input input:focus{
+    border: none!important;
+    outline: none;
+    transform: scale(0.9);
+    background-color: #480ca8;
+}
+
+.mobile-Item .mobile-item_li:hover{
+    border: none!important;
+}
+
+::placeholder{
+    color: #ffffff;
 }

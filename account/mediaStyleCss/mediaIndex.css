@@ -186,8 +186,8 @@
         width: 150px;
     }
 
-    .mobile-Item li{
+    .mobile-Item .item-menu-li{
         font-size: 9px;
-        margin-right: 1.5rem;
+        margin-right: -11.5px!important;
     }
 }
