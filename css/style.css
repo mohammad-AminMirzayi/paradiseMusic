@@ -160,6 +160,7 @@
 .shopping-cart{
     float: left;
     margin: 27px 0 0 40px;
+    position: relative;
 }
 
 .shopping-cart a i, .shopping-Cart_a{
@@ -481,4 +482,31 @@ body,html{
 .mobile-Acc .today-calendar{
     display: block;
     float: right;
+}
+
+.shopping-cart-inside{
+    width: 350px;
+    height: 350px;
+    z-index: 999999;
+    clear: both;
+    left: 0;
+    top: 50px;
+    position: absolute;
+    background-color: #c4c4c4;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    display: none;
+}
+
+.shopping-cart-inside p{
+    margin: 1.5rem 0 1.5rem 5.5rem;
+}
+
+.shopping-cart-inside::before{
+    text-align: right;
+    margin-left: 290px;
+    content: 'X';
+    font-size: 29px;
+    cursor: pointer;
 }

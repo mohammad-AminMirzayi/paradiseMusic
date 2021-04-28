@@ -4,7 +4,9 @@ const shoppingBag = $.querySelector('#shoppingBag_a')
 const todayCalendar_Span = $.querySelector('.today-calendar')
 const mobileTodayCalendar_Span = $.querySelector('.mobile-Today_Calendar')
 const accountUser_a = $.querySelector('#account_a')
-
+getComputedStyle($.querySelector('.shopping-cart-inside'), ':before').content
+const shoppingCart_i_main = $.querySelector('#fa-shpping')
+const shoppingcart_Inside = $.querySelector('.shopping-cart-inside')
 
 search_icon.addEventListener('click', (e) => {
     e.preventDefault()
@@ -119,3 +121,15 @@ function checkEvents() {
     const min = date.getMinutes()
     console.log(hr, min);
 }
+
+shoppingCart_i_main.addEventListener('mouseenter', () => {
+    if (shoppingcart_Inside.style.display != 'block') {
+        shoppingcart_Inside.style.display = 'block'
+    }
+})
+
+shoppingcart_Inside.addEventListener('click', () => {
+    if (shoppingcart_Inside.style.display != 'none') {
+        shoppingcart_Inside.style.display = 'none'
+    }
+})

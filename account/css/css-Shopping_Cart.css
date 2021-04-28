@@ -219,13 +219,21 @@
     height: 550px;
     position: absolute;
     z-index: 999999999;
-    right: 0;
-    top: 87px;
-    background-color: #0b090a;
+    right: 11px;
+    top: 99px;
+    background-color: rgba(0, 0, 0, 0.8);
     color: #f8f9fa;
     display: flex;
     flex-direction: column;
     align-items: center;
+    height: calc(100% - 15.45rem);
+    transition: all .5s linear;
+    display: none;
+    outline: none;
+    overflow: auto;
+    border-radius: 3px;
+    box-shadow: -3px 3px 11px 5px #0b090a;
+    z-index: 9999;
 }
 
 .alert-Notification_Li {
@@ -245,19 +253,48 @@
     top: 10px;
     clear: both;
     position: relative;
-    line-height: 2.5rem;
+    /* line-height: 2.5rem; */
     list-style: none;
-    padding-left: 59px;
-    padding-bottom: 2.5rem;
+    padding-bottom: 1rem;
+    border: 1.5px solid #f8f9fa;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1.5rem;
+    right: 10px;
+    border-radius: 3px;
 }
 
 .popup-items li a{
     color: #f8f9fa;
     text-decoration: none;
+    padding-left: 5.5rem;
 
 }
 
-.notification-popup{
+.notification-popup::-webkit-scrollbar{
     display: none;
-    height: calc(100% - 5.45rem);
+}
+
+.notification-popup li:last-child{
+    margin-bottom: 1.5rem;
+}
+
+.d-none-box{
+    display: none;
+    opacity: 0;
+}
+
+.notification-popup::before{
+    content: 'X';
+    padding: 3px;
+    float: right;
+    margin: .25rem .3rem 0 0;
+    font-size: 27px;
+    cursor: pointer;
+}
+
+.notification-popup:hover::before{
+    transform: scale(0.9);
+    transition: all 0.5s;
 }
