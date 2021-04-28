@@ -1,13 +1,13 @@
 const $ = document;
-const setting = $.querySelector('#setting')
-const setting_Div = $.querySelector('#setting_Div')
+const notification_bell = $.querySelector('.alert-Notification_Li')
+const notification_popup = $.querySelector('.notification-popup')
 
-setting.addEventListener('click', (e) => {
+
+notification_bell.addEventListener('click', (e) => {
     e.preventDefault()
-    if (setting_Div.style.display == 'none') {
-        setting_Div.style.display = 'block'
+    if (notification_popup.style.display != 'block') {
+        notification_popup.style.display = 'block'
     } else {
-        setting_Div.style.display = 'none'
-
+        notification_popup.style.display = 'none'
     }
 })

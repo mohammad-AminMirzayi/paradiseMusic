@@ -16,7 +16,7 @@
  <main class="main">
      <section class="header">
          <ul class="item-menu">
-             <li id="setting" class="li-items"><a href="#"><i class="fa fa-cog fa-spin fa-3x fa-fw"></i>تنظیمات</a></li>
+             <li id="setting" class="li-items"><a href="#" data-bs-toggle="offcanvas" data-bs-target="#offcanvasBottom" aria-controls="offcanvasBottom"><i class="fa fa-cog fa-spin fa-3x fa-fw" ></i>تنظیمات</a></li>
              <li class="li-items"><a href="#"><i class="fa fa-shopping-bag"></i>سفارش ها</a></li>
              <li class="li-items"><a href="#"><i class="fa fa-book"></i>پیشخوان</a></li>
              <li class="li-items"><a href="#"><i class="fas fa-money-check"></i>خرید های من</a></li>
@@ -62,22 +62,45 @@
              <p>سبد خرید شما خالی است</p>
              <span class="badge rounded-pill bg-warning">ShoppingBag</span>
          </div>
-         <div class="alert alert-warning alert_Setting align-items-center justify-content-center" id="setting_Div">
-             <ul class="setting-Item">
-                 <li><a href="#">شماره کارت</a></li>
-                 <li><a href="#">ایمیل</a></li>
-                 <li><a href="#">شماره تلفن</a></li>
-                 <li><a href="#">هشدار ها</a></li>
-                </ul>
-         </div>
          <div class="list-Shopinng_Item">
              <div class="border_Bottom-Custom">
             <div class="card-music">
-      
-             </div>
+
+            </div>
             </div>
      </section>
  </main>
+ <section class="settingItems">
+
+<div class="offcanvas offcanvas-bottom" tabindex="-1" id="offcanvasBottom" aria-labelledby="offcanvasBottomLabel">
+  <div class="offcanvas-header">
+    <h5 class="offcanvas-title" id="offcanvasBottomLabel"><span class="badge rounded-pill bg-dark text-white">settings</span></h5>
+    <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+  </div>
+  <div class="offcanvas-body small">
+    <ul class="settings-Items">
+      <li><a href="#">ویرایش حساب کاربری</a></li>
+      <li><a href="#">افزایش حساب</a></li>
+      <li><a href="#">خرید اشتراک ویژه</a></li>
+      <li><a href="#">خارج شدن از اکانت</a></li>
+      <li><a href="#">شخصی سازی</a></li>
+    </ul>
+  </div>
+</div>
+ </section>
+ <!--------------------------------------------------------------------------------------->
+ <!--------------------popup notification------------------------>
+ <section class="notification-popup">
+    <div class="popup-Info">
+      <ul class="popup-items">
+        <li><a href="#">خدایا مرسیی</a></li>
+        <li><a href="#">خدایا مرسیی</a></li>
+        <li><a href="#">خدایا مرسیی</a></li>
+        <li><a href="#">خدایا مرسیی</a></li>
+        <li><a href="#">خدایا مرسیی</a></li>
+      </ul>
+    </div>
+</section>
  <!--all Script-->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
  <script src="javaScript/appShpingCart.js"></script>

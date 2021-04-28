@@ -189,3 +189,75 @@
 ::placeholder{
     color: #ffffff;
 }
+
+.settings-Items li{
+    border: 2.5px solid;
+    margin: 0 2.5rem;
+    list-style: none;
+    padding: 5px;
+    border-radius: 3px;
+}
+
+.settings-Items{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.settings-Items li a{
+    text-decoration: none;
+    color: #0b090a;
+}
+
+.settings-Items li:hover{
+    transform: scale(1.1);
+}
+
+.notification-popup{
+    width: 350px;
+    height: 550px;
+    position: absolute;
+    z-index: 999999999;
+    right: 0;
+    top: 87px;
+    background-color: #0b090a;
+    color: #f8f9fa;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.alert-Notification_Li {
+    position: relative;
+}
+
+.popup-Info, .popup-items{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    float: right;
+    align-items: center;
+}
+
+.popup-items li{
+    top: 10px;
+    clear: both;
+    position: relative;
+    line-height: 2.5rem;
+    list-style: none;
+    padding-left: 59px;
+    padding-bottom: 2.5rem;
+}
+
+.popup-items li a{
+    color: #f8f9fa;
+    text-decoration: none;
+
+}
+
+.notification-popup{
+    display: none;
+    height: calc(100% - 5.45rem);
+}
